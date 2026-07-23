@@ -1,9 +1,10 @@
 ## Interface: 120007, 120100
-## Title: AutoShowKeystone
+## Title: Show My Mythic Keystone
 ## Notes: Shows your keystone in the Group Finder's Mythic+ Dungeons tab.
 ## Author: Hydrospanners
 ## Version: 1.0.0
 ## Category: Dungeons & Raids
-## SavedVariables: AutoShowKeystoneDB
+## X-Curse-Project-ID: 1622297
+## SavedVariables: ShowMyMythicKeystoneDB
 
-AutoShowKeystone.lua
+ShowMyMythicKeystone.lua

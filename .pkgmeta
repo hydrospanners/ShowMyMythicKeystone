@@ -1,4 +1,4 @@
-package-as: AutoShowKeystone
+package-as: ShowMyMythicKeystone
 enable-nolib-creation: no
 
 # Use the hand-written changelog as the CurseForge file changelog instead of

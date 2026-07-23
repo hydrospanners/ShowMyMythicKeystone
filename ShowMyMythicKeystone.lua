@@ -104,7 +104,7 @@ local function Refresh()
         msg = NO_KEY_HINT
     end
 
-    if AutoShowKeystoneDB.hidden or not msg then
+    if ShowMyMythicKeystoneDB.hidden or not msg then
         frame:Hide()
         return
     end
@@ -129,7 +129,7 @@ local function AttachToChallengesFrame()
         return
     end
 
-    frame = CreateFrame("Frame", "AutoShowKeystoneFrame", ChallengesFrame)
+    frame = CreateFrame("Frame", "ShowMyMythicKeystoneFrame", ChallengesFrame)
     -- The panel's own art sits on inner frames with higher levels than
     -- ChallengesFrame, so clear the lot of them.
     frame:SetFrameStrata("HIGH")
@@ -161,27 +161,27 @@ local function AttachToChallengesFrame()
 end
 
 local function Print(msg)
-    print("|cffa335eeAutoShowKeystone|r: " .. msg)
+    print("|cffa335eeShowMyMythicKeystone|r: " .. msg)
 end
 
-SLASH_AUTOSHOWKEYSTONE1 = "/autoshowkeystone"
-SLASH_AUTOSHOWKEYSTONE2 = "/ak"
-SlashCmdList.AUTOSHOWKEYSTONE = function(msg)
+SLASH_SHOWMYMYTHICKEYSTONE1 = "/showmymythickeystone"
+SLASH_SHOWMYMYTHICKEYSTONE2 = "/smk"
+SlashCmdList.SHOWMYMYTHICKEYSTONE = function(msg)
     local cmd = msg:lower():match("^(%S*)")
 
     if cmd == "show" then
-        AutoShowKeystoneDB.hidden = false
+        ShowMyMythicKeystoneDB.hidden = false
     elseif cmd == "hide" then
-        AutoShowKeystoneDB.hidden = true
+        ShowMyMythicKeystoneDB.hidden = true
     elseif cmd == "" or cmd == "toggle" then
-        AutoShowKeystoneDB.hidden = not AutoShowKeystoneDB.hidden
+        ShowMyMythicKeystoneDB.hidden = not ShowMyMythicKeystoneDB.hidden
     else
-        Print("/ak show, /ak hide, or /ak on its own to toggle.")
+        Print("/smk show, /smk hide, or /smk on its own to toggle.")
         return
     end
 
     Refresh()
-    Print(AutoShowKeystoneDB.hidden and "keystone line hidden." or "keystone line shown.")
+    Print(ShowMyMythicKeystoneDB.hidden and "keystone line hidden." or "keystone line shown.")
 end
 
 local loader = CreateFrame("Frame")
@@ -190,7 +190,7 @@ loader:RegisterEvent("PLAYER_LOGIN")
 loader:SetScript("OnEvent", function(self, event, addonName)
     if event == "ADDON_LOADED" then
         if addonName == AddonName then
-            AutoShowKeystoneDB = AutoShowKeystoneDB or { hidden = false }
+            ShowMyMythicKeystoneDB = ShowMyMythicKeystoneDB or { hidden = false }
         elseif addonName == "Blizzard_ChallengesUI" then
             AttachToChallengesFrame()
             self:UnregisterEvent("ADDON_LOADED")

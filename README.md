@@ -1,9 +1,9 @@
-# AutoShowKeystone
+# ShowMyMythicKeystone
 
 **The Mythic+ tab shows everything except which key you have. Now it does.**
 
 Your rating, your affixes, your best runs. All right there, and not one word
-about the keystone in your bags. AutoShowKeystone puts it under your rating:
+about the keystone in your bags. ShowMyMythicKeystone puts it under your rating:
 
 ```
 [Magisters' Terrace +14]
@@ -29,7 +29,7 @@ the way until it has something worth saying.
 
 ## Command
 
-- `/ak` toggles the line. `/ak show` and `/ak hide` if you prefer to be
+- `/smk` toggles the line. `/smk show` and `/smk hide` if you prefer to be
   explicit. The setting is saved.
 
 ## Honest limitations
@@ -46,9 +46,9 @@ The keystone NPC gets rechecked each season. If Blizzard moves or renames them,
 
 ## Installation
 
-- **CurseForge:** search for *AutoShowKeystone* in the CurseForge app.
+- **CurseForge:** search for *ShowMyMythicKeystone* in the CurseForge app.
 - **Manual:** download the latest zip from [Releases](../../releases/latest)
-  and extract the `AutoShowKeystone` folder into
+  and extract the `ShowMyMythicKeystone` folder into
   `World of Warcraft\_retail_\Interface\AddOns\`, then restart the game.
 
 Requires World of Warcraft Retail (Midnight, 12.x).
