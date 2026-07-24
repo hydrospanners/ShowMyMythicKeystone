@@ -78,7 +78,7 @@ local function PositionFrame()
 
     frame:ClearAllPoints()
     if panelTop and iconTop then
-        frame:SetPoint("TOP", ChallengesFrame, "TOP", 0, iconTop - panelTop + 24)
+        frame:SetPoint("TOP", ChallengesFrame, "TOP", 0, iconTop - panelTop + 36)
     else
         frame:SetPoint("TOP", ChallengesFrame, "TOP", 0, -320)
     end
