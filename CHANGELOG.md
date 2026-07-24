@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 (2026-07-25)
+
+- Nudged the keystone line up a touch so it clears the teleport buttons other
+  addons add to the dungeon icons.
+
 ## 1.0.0 (2026-07-23)
 
 - Initial release: your current keystone shown as `[Dungeon +Level]` under the
