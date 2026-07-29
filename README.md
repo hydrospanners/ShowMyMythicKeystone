@@ -12,7 +12,30 @@ about the keystone in your bags. ShowMyMythicKeystone puts it under your rating:
 Hover it for the keystone's own tooltip. Shift-click it to link the key into
 chat, exactly like clicking it in your bags.
 
-There is no options panel and no minimap button.
+## Your alts' keys too
+
+Down the right-hand side of the tab, opposite the weekly best block:
+
+```
+Boonkerz
+Magisters' Terrace +14
+
+Hydrospanners
+Ara-Kara, City of Echoes +8
+```
+
+Text only — no window, no border, nothing to move out of the way. Hover an
+entry for that keystone's own tooltip; shift-click to link it into chat, both
+exactly as if you were on that character.
+
+**It only covers this week.** The list empties at the weekly reset and fills
+back in as you play each character. A character you have not logged into since
+reset simply is not there. That is the honest answer: the game gives no way to
+read a key off a character while it is offline, so an entry left over from last
+week would be a guess dressed up as a fact.
+
+Realms are hidden unless two of your characters share a name. There is a setting
+if you would rather always see them.
 
 ## What it shows
 
@@ -27,10 +50,23 @@ That last row is deliberate. A character who has never run a Mythic+ dungeon
 does not need to be told where keystones come from, so the addon stays out of
 the way until it has something worth saying.
 
-## Command
+## Options
 
-- `/smk` toggles the line. `/smk show` and `/smk hide` if you prefer to be
-  explicit. The setting is saved.
+Interface options, under *Show My Mythic Keystone*:
+
+| Setting | Default | |
+|---------|---------|---|
+| Enable alt's keystones | on | The list on the right. Off leaves just your own line. |
+| Force server name | off | Always show realms, not only when names collide. |
+| Clear saved variables | — | Forget every stored character. Rebuilds as you play them. |
+
+## Commands
+
+- `/smk` toggles the line. `/smk show` and `/smk hide` to be explicit.
+- `/smk alts` toggles the alt list.
+- `/smk clear` empties the stored characters.
+
+Settings are saved.
 
 ## Honest limitations
 
