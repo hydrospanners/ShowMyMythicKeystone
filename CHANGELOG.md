@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 (2026-08-14)
+
+- Marked compatible with patch 12.1. No behavior changes.
+
 ## 1.1.0 (2026-07-29)
 
 - Your other characters' keystones now list down the right-hand side of the
