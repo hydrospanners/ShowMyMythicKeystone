@@ -253,7 +253,7 @@ local function RefreshAlts()
         widgets.name:SetText(ClassColored(label, row.class))
 
         local mapName = C_ChallengeMode.GetMapUIInfo(row.mapID)
-        widgets.key:SetText(("|cffa335ee%s +%d|r"):format(mapName or "Keystone", row.level))
+        widgets.key:SetText(("|cffa335ee[%s +%d]|r"):format(mapName or "Keystone", row.level))
 
         widgets.link = row.link
         widgets:EnableMouse(row.link ~= nil)
