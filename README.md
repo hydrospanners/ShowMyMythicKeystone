@@ -17,7 +17,7 @@ chat, exactly like clicking it in your bags.
 Down the right-hand side of the tab, opposite the weekly best block:
 
 ```
-Boonkerz
+Charactername
 Magisters' Terrace +14
 
 Hydrospanners

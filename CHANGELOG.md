@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2 (2026-09-29)
+
+- Marked compatible with patch 12.1.5. No behavior changes.
+
 ## 1.1.1 (2026-08-14)
 
 - Marked compatible with patch 12.1. No behavior changes.

@@ -1,8 +1,8 @@
-## Interface: 120100
+## Interface: 120100, 120105
 ## Title: Show My Mythic Keystone
 ## Notes: Shows your keystone, and your alts' keystones, in the Group Finder's Mythic+ Dungeons tab.
 ## Author: Hydrospanners
-## Version: 1.1.1
+## Version: 1.1.2
 ## Category: Dungeons & Raids
 ## X-Curse-Project-ID: 1622297
 ## SavedVariables: ShowMyMythicKeystoneDB
